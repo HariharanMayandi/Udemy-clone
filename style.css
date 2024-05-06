@@ -17,6 +17,11 @@ body{
     border-bottom: solid black 1px;
     gap: 10px ;
     align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+    
 }
 .navbar__s1__title{
     color:rgb(159, 51, 232);
@@ -62,12 +67,52 @@ body{
 
 
 }
+
+.salesimage__offer{
+    width: 30%;
+    border: 2px black solid;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    top: 10%;
+    left: 20%;
+
+
+}
+
+.mylearnings{
+    position: relative;
+    cursor: pointer;
+
+}
+
+.popup{
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border: 2px black solid;
+    right: 0px;
+    top: 150%;
+    display: none;
+    
+}
+
+.mylearnings:hover .popup{
+    display: block;
+}
+
 .saleimage{
     
     width:100%;
-    justify-content: center;
-    display: flex;
+    position: relative;
+
     
+    
+    
+}
+
+.saleimage img{
+    width: 100%;
 }
 
 .recommended{
